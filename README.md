@@ -1,4 +1,4 @@
-# Avoid
+# Avoid [![JitPack](https://jitpack.io/v/kaioru/avoid.svg)](https://jitpack.io/#co.kaioru/avoid)
 Avoid is a simpler command framework built on top of Retort. It only has input values, an no outputs, therefore returns a void for all command executions, perfect for creating simple command api's or integrating to any project.
 
 ## Retort vs Avoid
