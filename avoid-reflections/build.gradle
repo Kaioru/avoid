@@ -1,0 +1,5 @@
+dependencies {
+    compile project(":avoid-core")
+    compile project(":avoid-annotations")
+    compile 'co.kaioru.retort:retort-reflections:2.0.0'
+}
