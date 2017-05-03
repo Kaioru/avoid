@@ -19,4 +19,4 @@ abstract class SimpleCommand<I : SimpleContext>(name: String) : Command<I, Void>
 
 abstract class SimpleMiddleware<I : SimpleContext> : CommandMiddleware<I>()
 
-class SimpleCommandRegistry<I : SimpleContext> : CommandRegistry<I, Void>()
+abstract class SimpleCommandRegistry<I : SimpleContext> : CommandRegistry<I, Void>()
