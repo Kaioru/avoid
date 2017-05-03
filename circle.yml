@@ -1,0 +1,14 @@
+machine:
+  java:
+      version:
+        oraclejdk8
+dependencies:
+  override:
+    - ./gradlew build -x test
+compile:
+  override:
+    - ./gradlew build
+test:
+  override:
+    - ./gradlew jacocoTestReport
+    - bash <(curl -s https://codecov.io/bash)

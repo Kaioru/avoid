@@ -1,0 +1,3 @@
+dependencies {
+    compile 'co.kaioru.retort:retort-annotations:2.0.0'
+}

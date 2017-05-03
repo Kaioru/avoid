@@ -1,0 +1,5 @@
+rootProject.name = 'avoid'
+include 'avoid-core'
+include 'avoid-annotations'
+include 'avoid-reflections'
+
