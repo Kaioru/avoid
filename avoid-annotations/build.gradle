@@ -1,3 +1,4 @@
 dependencies {
+    compile project(":avoid-core")
     compile 'co.kaioru.retort:retort-annotations:2.0.0'
 }
